@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    .btn-primary{
+        @apply rounded-md border-2 border-purple-400  bg-purple-500 px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-purple-400/50;
+    }
+   .btn-outline{
+    @apply rounded-md border-2 border-slate-400  px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-cyan-500;
+   }
+   .button-square{
+    @apply rounded-s border px-8 py-4 text-2xl font-sans text-slate-600 bg-slate-100/25 hover:bg-slate-200 dark:bg-white;
+   }
+}
